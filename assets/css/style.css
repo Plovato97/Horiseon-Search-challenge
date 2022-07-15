@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* Removed .header since it's not a class element anymore and replaced with selector header */
+/* Removed . from header since it is not a class now but an actual selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+        display: inline-block;
     font-size: 48px;
 }
 
@@ -49,6 +49,7 @@ a {
 p {
     font-size: 16px;
 }
+
 .hero {
     height: 800px;
     width: 100%;
