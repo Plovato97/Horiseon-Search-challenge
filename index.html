@@ -9,10 +9,11 @@
 </head>
 
 <body>
-<!-- Removed Div clas-header and replaced with <Header>-->
+<!-- Removed Div clas-header and replaced with <Header> -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+<!-- Removed div and replaced with Nav for a better html context and understanding of code -->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,14 +25,14 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 <!-- added section to emphasize full content of this section page rather than just a div -->    
     <section class="hero"></section>
 <!-- Added main selector to emphazise main content of the page with sub div's-->
     <main class="content">
 <!-- added id to div, for proper header selection -->
-<!-- removed individual class per div and added content-tab to all divs for proper style sheet integration -->
+<!-- removed individual class per divs and added content-tab to all divs for proper style sheet integration -->
         <div id="search-engine-optimization" class="content-tab">
 <!-- Added Alt to all images src -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook with SEO bubble and a maginiflying glass" class="float-left" />
@@ -55,23 +56,24 @@
             </p>
         </div>
     </main>
-<!-- Removed div to article to emphasize the independent content of this section moved to the side and not a main content-->
+<!-- Removed div to article element to emphasize the independent content of this section moved to the side and not a main content-->
     <article class="benefits">
-        <div class="benefit-lead">
+<!-- removed individual classes from divs to concise all classes with one class element and remove css style jargon -->
+        <div class="benefit">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
